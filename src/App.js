@@ -1,25 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import Shop from './components/Shop';
+import Garage from './components/Garage';
+import Settings from './components/Settings';
+import Game from './components/Game';
+import carData from './assets/cars/carData.json';
+import './styles.css';
 
-function App() {
+
+
+const App = () => {
+  const [user, setUser] = useState({
+    currentCar: null,
+  });
+  const [cars, setCars] = useState([]);
+
+  useEffect(() => {
+    setCars(carData);
+  }, []);
+
+  const handleSelectCar = (car) => {
+    setUser({
+      ...user,
+      currentCar: car,
+    });
+  };
+
+  const handlePlay = (car) => {
+    setUser({
+      ...user,
+      currentCar: car,
+    });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route
+            path="/"
+            element={<Home user={user} cars={cars} handlePlay={handlePlay} />}
+          />
+          <Route
+            path="/shop"
+            element={<Shop buyCar={handleSelectCar} />}
+          />
+          <Route
+            path="/garage"
+            element={<Garage user={user} selectCar={handleSelectCar} />}
+          />
+          <Route path="/settings" element={<Settings />} />
+          <Route
+            path="/game"
+            element={<Game car={user.currentCar} />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

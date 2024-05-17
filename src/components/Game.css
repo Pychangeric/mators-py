@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #264430; 
+  color: white; 
+  font-family: Arial, sans-serif;
+}
+
+.road-container {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background-color: #264430; 
+  overflow: hidden;
+}
+
+.road {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  border-radius: 10px; 
+}
+
+.bush-left,
+.bush-right {
+  position: absolute;
+  top: 0;
+  width: 5vw; 
+  height: 100%;
+  background-color: #59ec8a;
+}
+
+.bush-left {
+  left: 0;
+}
+
+.bush-right {
+  right: 0;
+}
+
+.car {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10vw; 
+  height: 15vh; 
+  background-color: white; 
+  border-radius: 5px; 
+}

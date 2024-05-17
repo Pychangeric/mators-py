@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Car 1",
+        "speed": 5,
+        "price": 2000,
+        "image": "https://www.google.com/imgres?q=bmw&imgurl=https%3A%2F%2Fwww.topgear.com%2Fsites%2Fdefault%2Ffiles%2F2023%2F08%2FP90492179_highRes_bmw-i7-xdrive60-m-sp%2520%25281%2529.jpg&imgrefurl=https%3A%2F%2Fwww.topgear.com%2Fcar-reviews%2Fbmw%2F7-series&docid=nTJUedck5H77EM&tbnid=7uqbzfW-GSSYvM&vet=12ahUKEwjUuqbf55SGAxVw9gIHHZO8A5gQM3oECBwQAA..i&w=4376&h=2462&hcb=2&ved=2ahUKEwjUuqbf55SGAxVw9gIHHZO8A5gQM3oECBwQAA"
+      },
+      {
+        "id": 2,
+        "name": "Car 2",
+        "speed": 6,
+        "price": 3000,
+        "image": "https://www.google.com/imgres?q=bmw&imgurl=https%3A%2F%2Fwww.bmw.in%2Fcontent%2Fdam%2Fbmw%2FmarketIN%2Fbmw_in%2Fall-models%2F3-series%2Fgl%2F2023%2Fnavigation.png&imgrefurl=https%3A%2F%2Fwww.bmw.in%2Fen%2Fall-models%2F3-series.html&docid=YydFrZ-LqaIRoM&tbnid=TAnBKfPZm4_kdM&vet=12ahUKEwjUuqbf55SGAxVw9gIHHZO8A5gQM3oECGUQAA..i&w=890&h=500&hcb=2&ved=2ahUKEwjUuqbf55SGAxVw9gIHHZO8A5gQM3oECGUQAA"
+      },
+      {
+        "id": 3,
+        "name": "Car 3",
+        "speed": 5,
+        "price": 2500,
+        "image": "https://example.com/images/car3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Car 4",
+        "speed": 6,
+        "price": 3500,
+        "image": "https://example.com/images/car4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Car 5",
+        "speed": 5,
+        "price": 2200,
+        "image": "https://example.com/images/car5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Car 6",
+        "speed": 6,
+        "price": 3300,
+        "image": "https://example.com/images/car6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Car 7",
+        "speed": 5,
+        "price": 2400,
+        "image": "https://example.com/images/car7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Car 8",
+        "speed": 6,
+        "price": 3200,
+        "image": "https://example.com/images/car8.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Car 9",
+        "speed": 5,
+        "price": 2100,
+        "image": "https://example.com/images/car9.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Car 10",
+        "speed": 6,
+        "price": 3100,
+        "image": "https://example.com/images/car10.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Car 11",
+        "speed": 5,
+        "price": 2700,
+        "image": "https://example.com/images/car11.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Car 12",
+        "speed": 6,
+        "price": 3500,
+        "image": "https://example.com/images/car12.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Car 13",
+        "speed": 5,
+        "price": 2500,
+        "image": "https://example.com/images/car13.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Car 14",
+        "speed": 6,
+        "price": 3600,
+        "image": "https://example.com/images/car14.jpg"
+      }
+  ]
+  
