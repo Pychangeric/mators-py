@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# mators-py
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This was a project just trying to do a mind game trial.
